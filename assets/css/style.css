@@ -1,0 +1,419 @@
+
+
+:root {
+    --primary-color: #DD0A73;
+    --secondary-color:#FFFFFF;
+    --dark-grey:#3B3B3B;
+    --dark-grey2: #333333;
+    --light-grey:#726f6f;
+    --dark-green: #ABD700;
+    --New-blueberry:#5690FF;
+    --Light-blue:#FAFCFF;
+   
+  }
+
+  * {
+    font-family: 'Poppins', sans-serif;
+  }
+  body {
+    overflow-x: hidden;
+  }
+
+  .navbar {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+.navbar-brand img{
+    margin-left: 50px;
+}
+
+.navbar .dropdown-menu a.dropdown-item:hover {
+    background-color: transparent;
+    color: var(--light-grey);
+  }
+.navbar-nav a{
+    margin-left: 50px;
+    font-weight: 500px;
+    font-size: 16px;
+    margin-top: 13px;
+}
+.dropdown-menu{
+    width: 400px;
+    height: 355px;
+    line-height: 0.5;
+}
+
+.dropdown-menu a{
+    font-weight: 700px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.dropdown-menu p{
+  
+    font-weight: 500px;
+    margin-left: 128px;
+    font-size: 14px;
+}
+
+.animation-section h1{
+    font-size: 50px;
+    font-weight: 300;
+    color: var(--primary-color);
+    line-height: 80px;
+}
+.animation-section h2{
+    color: var(--dark-grey);
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 80px;
+}
+
+.animation-section p{
+    font-size: 17px;
+    line-height: 30px;
+    color: var(--light-grey);
+}
+.animation-section .fa-check-circle{
+    
+    color: var(--dark-green);
+}
+
+.animation-section ul li{
+    font-size: 17px;
+    line-height: 30px;
+    color: var(--light-grey);
+}
+
+.animation-section button{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    font-size: 13px;
+}
+
+.animation-section button:hover, .pay-portal-section button:hover, .rapid-section button:hover, .platform-with-unipass-section button:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: 1.5px solid #DD0A73;
+}
+.pay-portal-section{
+    background: linear-gradient(to bottom right,#031124, #001B4F);
+    margin-top: 50px;
+
+}
+
+.pay-portal-section h1{
+    font-size: 35px;
+    font-weight: 300;
+    color: var(--primary-color);
+    line-height: 70px;
+    text-align: center;
+
+}
+.pay-portal-section h2{
+    font-size: 35px;
+    font-weight: 300;
+    color: var(--secondary-color);
+    line-height: 70px;
+    text-align: center;
+}
+.pay-portal-section p{
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--secondary-color);
+    text-align: center;
+}
+.pay-portal-section .image-container, .on-board-section .image-container, .notification-section .image-container, .pay-section .image-container, .more-section .image-container, .rapid-section .image-container, .platform-with-unipass-section .image-container {
+    text-align: center;
+}
+.pay-portal-section .image-container img, .on-board-section .image-container img, .notification-section .image-container img, .pay-section .image-container img, .more-section .image-container img, .rapid-section .image-container img, .platform-with-unipass-section .image-container img{
+    max-width: 100%;
+    height: auto;
+}
+.pay-portal-section .fa-check-circle, .on-board-section .fa-check-circle, .pay-section .fa-check-circle{
+    color: var(--New-blueberry);
+}
+
+.pay-portal-section li{
+    font-size: 14px;
+    color: var(--secondary-color);
+}
+
+.pay-portal-section .container {
+    justify-content: center;
+    display: flex;
+}
+
+
+.pay-portal-section button, .rapid-section button, .platform-with-unipass-section button{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    font-size: 13px;
+    margin-bottom: 50px;
+}
+
+.on-board-section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.on-board-section .text1, .notification-section .text1, .pay-section h3, .pay-section .text2{
+    color: var(--primary-color);
+    font-size: 35px;
+    font-weight: 300;
+}
+.on-board-section .text2, .notification-section h1, .notification-section .text2, .pay-section h1, .pay-section .text1, .more-section h1{
+    color: var(--dark-grey);
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.on-board-section li, .on-board-section p, .notification-section li, .notification-section p, .pay-section li, .pay-section p, .more-section p{
+    font-size: 14px;
+    color: var(--light-grey);
+}
+
+.on-board-section button, .notification-section button, .pay-section button{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: 1.5px solid #DD0A73;
+    font-size: 13px;
+    margin-bottom: 50px;
+}
+
+.on-board-section button:hover, .notification-section button:hover, .pay-section button:hover{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    font-size: 13px;
+}
+ul{
+    padding-left: 0;
+    margin-left: 0;
+}
+
+ul li{
+    margin-bottom: 2.5px;
+    padding-bottom: 2.55px;
+}
+.icon-list {
+    list-style-type: none;
+}
+.notification-section, .more-section{
+    background-color: var(--Light-blue);
+}
+
+.notification-section .fa-check-circle, .platform-with-unipass-section .fa-check-circle{
+    color: var(--primary-color);
+}
+.pay-section h1{
+    margin-top: 50px;
+}
+
+.more-section{
+    margin-top:100px;
+}
+
+.more-section h2{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--dark-grey);
+    font-weight: bolder;
+}
+
+.more-section a{
+    font-size: 14px;
+    color: var(--primary-color);
+}
+.more-section a:hover{
+    font-size: 14px;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.more-section h5{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--dark-grey);
+    font-weight: bold;
+}
+.custom-card{
+    margin-bottom: 50px;  
+    background-color: var(--secondary-color);
+    height: 275px;
+  }
+
+.rapid-section h1{
+      margin-top: 50px;
+  }
+.rapid-section h1,.rapid-section .text1, .footer .text2{
+    color: var(--dark-grey);
+    font-size: 35px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.rapid-section .text2, .footer .text1{
+    color: var(--primary-color);
+    font-size: 35px;
+    font-weight: 300;
+}
+.rapid-section h2{
+    text-align: center;
+}
+.rapid-section p{
+    margin-top: 20px;
+    color: var(--light-grey);
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 24px;
+}
+
+.platform-with-unipass-section{
+    background: radial-gradient(#031124,#031124);
+}
+/* background: radial-gradient(circle,#B7DF18,#031124,#031124,#5690FF); */
+.platform-with-unipass-section h1{
+    font-size: 34px;
+    font-weight: 100;
+    color: var(--secondary-color);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.platform-with-unipass-section h2{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--secondary-color);
+    font-weight: bold;
+    
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.platform-with-unipass-section li{
+    font-size: 14px;
+    color: var(--secondary-color);
+}
+
+.platform-with-unipass-section{
+    margin-bottom: 50px;
+}
+
+.textbox-container {
+    display: flex;
+    align-items: center;
+}
+  
+  .textbox {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .arrow-button {
+    background-color: var(--primary-color);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    color: var(--secondary-color);
+  }
+  
+.footer-heading{
+    font-size: 14px;
+    color: var(--dark-grey2);
+    font-weight: bolder;
+
+  
+}
+/* .list-unstyled{
+    margin-left: 25px;
+} */
+.list-unstyled a{
+    text-decoration: none;
+    color:var(--light-grey);
+    font-size: 14px;
+}
+.list-unstyled a:hover{
+    text-decoration: none;
+    color:var(--dark-grey);
+    font-size: 14px;
+} 
+
+.confirm, .confirm a,.confirm a:hover{
+    font-size: 14px;
+    color:var(--light-grey);
+}
+
+
+.footer .link{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+.footer p{
+    font-size: 11px;
+    color:var(--light-grey);
+}
+.svg-container {
+    position: relative;
+  }
+  
+  .svg-container img {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1000ms ease-in-out;
+  }
+  
+  .svg-container img:nth-child(1) {
+    animation: svg-appear 1000ms ease-in-out 1500ms forwards;
+  }
+  
+  .svg-container img:nth-child(2) {
+    animation: svg-appear 1000ms ease-in-out 3000ms forwards;
+  }
+  
+  .svg-container img:nth-child(3) {
+    animation: svg-appear 1000ms ease-in-out 4500ms forwards;
+  }
+  
+  .svg-container img:nth-child(4) {
+    animation: svg-appear 1000ms ease-in-out 6000ms forwards;
+  }
+  
+  .svg-container img:nth-child(5) {
+    animation: svg-appear 1000ms ease-in-out 7500ms forwards;
+  }
+  
+  .svg-container img:nth-child(6) {
+    animation: svg-appear 1000ms ease-in-out 9000ms forwards;
+  }
+  
+  @keyframes svg-appear {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+   
+@media (max-width: 768px) {
+    .image-container{
+      text-align: left;
+    }
+
+    .animation-container img {
+        width: 100%;
+        height: auto;
+      }
+      .svg-container {
+        /* Adjust positioning for smaller screens */
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+  }
+
+  
