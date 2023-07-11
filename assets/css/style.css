@@ -37,8 +37,8 @@
     margin-top: 13px;
 }
 .dropdown-menu{
-    width: 400px;
-    height: 355px;
+    width: 500px;
+    height: 380px;
     line-height: 0.5;
 }
 
@@ -98,7 +98,7 @@
     border: 1.5px solid #DD0A73;
 }
 .pay-portal-section{
-    background: linear-gradient(to bottom right,#031124, #001B4F);
+    background: linear-gradient(79.32deg, #031124 1.74%, #001B4F 100%);
     margin-top: 50px;
 
 }
@@ -124,7 +124,8 @@
     color: var(--secondary-color);
     text-align: center;
 }
-.pay-portal-section .image-container, .on-board-section .image-container, .notification-section .image-container, .pay-section .image-container, .more-section .image-container, .rapid-section .image-container, .platform-with-unipass-section .image-container {
+
+ .pay-portal-section .image-container, .on-board-section .image-container, .notification-section .image-container, .pay-section .image-container, .more-section .image-container, .rapid-section .image-container, .platform-with-unipass-section .image-container {
     text-align: center;
 }
 .pay-portal-section .image-container img, .on-board-section .image-container img, .notification-section .image-container img, .pay-section .image-container img, .more-section .image-container img, .rapid-section .image-container img, .platform-with-unipass-section .image-container img{
@@ -272,7 +273,7 @@ ul li{
 }
 
 .platform-with-unipass-section{
-    background: radial-gradient(#031124,#031124);
+    background: radial-gradient(142.17% 926.44% at 117.58% -19.23%, #B7DF18 0%, #031124 30.21%, #031124 68.23%, #5690FF 100%);
 }
 /* background: radial-gradient(circle,#B7DF18,#031124,#031124,#5690FF); */
 .platform-with-unipass-section h1{
@@ -357,12 +358,20 @@ ul li{
 }
 .svg-container {
     position: relative;
+  
+   
   }
   
   .svg-container img {
     position: absolute;
     opacity: 0;
     transition: opacity 1000ms ease-in-out;
+   
+  }
+
+  .pay-section .svg-container img{
+    width: 675px;
+    height: 550px;
   }
   
   .svg-container img:nth-child(1) {
@@ -380,15 +389,24 @@ ul li{
   .svg-container img:nth-child(4) {
     animation: svg-appear 1000ms ease-in-out 6000ms forwards;
   }
-  
   .svg-container img:nth-child(5) {
     animation: svg-appear 1000ms ease-in-out 7500ms forwards;
   }
-  
   .svg-container img:nth-child(6) {
     animation: svg-appear 1000ms ease-in-out 9000ms forwards;
   }
-  
+  .svg-container img:nth-child(7) {
+    animation: svg-appear 1000ms ease-in-out 10500ms forwards;
+  }
+  .svg-container img:nth-child(8) {
+    animation: svg-appear 1000ms ease-in-out 12000ms forwards;
+  }
+  .svg-container img:nth-child(9) {
+    animation: svg-appear 1000ms ease-in-out 13500ms forwards;
+  }
+  .svg-container img:nth-child(10) {
+    animation: svg-appear 1000ms ease-in-out 15000ms forwards;
+  }
   @keyframes svg-appear {
     0% {
       opacity: 0;
@@ -404,7 +422,7 @@ ul li{
       text-align: left;
     }
 
-    .animation-container img {
+    .animation-section .svg-container img {
         width: 100%;
         height: auto;
       }
@@ -414,6 +432,9 @@ ul li{
         top: 50%;
         transform: translateY(-50%);
       }
+    .pay-portal-section{
+        margin-top: 400px;
+    }
   }
 
   
